@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		7E42B6392ED3F68B00E409DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E42B6232ED3F68A00E409DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E42B62A2ED3F68A00E409DB;
+			remoteInfo = "tempered-canvas";
+		};
+		7E42B6432ED3F68B00E409DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E42B6232ED3F68A00E409DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E42B62A2ED3F68A00E409DB;
+			remoteInfo = "tempered-canvas";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E42B62B2ED3F68A00E409DB /* tempered-canvas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tempered-canvas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E42B6382ED3F68B00E409DB /* tempered-canvasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tempered-canvasTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E42B6422ED3F68B00E409DB /* tempered-canvasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tempered-canvasUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7E42B62D2ED3F68A00E409DB /* tempered-canvas */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "tempered-canvas";
+			sourceTree = "<group>";
+		};
+		7E42B63B2ED3F68B00E409DB /* tempered-canvasTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "tempered-canvasTests";
+			sourceTree = "<group>";
+		};
+		7E42B6452ED3F68B00E409DB /* tempered-canvasUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "tempered-canvasUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E42B6282ED3F68A00E409DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E42B6352ED3F68B00E409DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E42B63F2ED3F68B00E409DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E42B6222ED3F68A00E409DB = {
+			isa = PBXGroup;
+			children = (
+				7E42B62D2ED3F68A00E409DB /* tempered-canvas */,
+				7E42B63B2ED3F68B00E409DB /* tempered-canvasTests */,
+				7E42B6452ED3F68B00E409DB /* tempered-canvasUITests */,
+				7E42B62C2ED3F68A00E409DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E42B62C2ED3F68A00E409DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E42B62B2ED3F68A00E409DB /* tempered-canvas.app */,
+				7E42B6382ED3F68B00E409DB /* tempered-canvasTests.xctest */,
+				7E42B6422ED3F68B00E409DB /* tempered-canvasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E42B62A2ED3F68A00E409DB /* tempered-canvas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E42B64C2ED3F68B00E409DB /* Build configuration list for PBXNativeTarget "tempered-canvas" */;
+			buildPhases = (
+				7E42B6272ED3F68A00E409DB /* Sources */,
+				7E42B6282ED3F68A00E409DB /* Frameworks */,
+				7E42B6292ED3F68A00E409DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7E42B62D2ED3F68A00E409DB /* tempered-canvas */,
+			);
+			name = "tempered-canvas";
+			packageProductDependencies = (
+			);
+			productName = "tempered-canvas";
+			productReference = 7E42B62B2ED3F68A00E409DB /* tempered-canvas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E42B6372ED3F68B00E409DB /* tempered-canvasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E42B64F2ED3F68B00E409DB /* Build configuration list for PBXNativeTarget "tempered-canvasTests" */;
+			buildPhases = (
+				7E42B6342ED3F68B00E409DB /* Sources */,
+				7E42B6352ED3F68B00E409DB /* Frameworks */,
+				7E42B6362ED3F68B00E409DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E42B63A2ED3F68B00E409DB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7E42B63B2ED3F68B00E409DB /* tempered-canvasTests */,
+			);
+			name = "tempered-canvasTests";
+			packageProductDependencies = (
+			);
+			productName = "tempered-canvasTests";
+			productReference = 7E42B6382ED3F68B00E409DB /* tempered-canvasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E42B6412ED3F68B00E409DB /* tempered-canvasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E42B6522ED3F68B00E409DB /* Build configuration list for PBXNativeTarget "tempered-canvasUITests" */;
+			buildPhases = (
+				7E42B63E2ED3F68B00E409DB /* Sources */,
+				7E42B63F2ED3F68B00E409DB /* Frameworks */,
+				7E42B6402ED3F68B00E409DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E42B6442ED3F68B00E409DB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7E42B6452ED3F68B00E409DB /* tempered-canvasUITests */,
+			);
+			name = "tempered-canvasUITests";
+			packageProductDependencies = (
+			);
+			productName = "tempered-canvasUITests";
+			productReference = 7E42B6422ED3F68B00E409DB /* tempered-canvasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E42B6232ED3F68A00E409DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2610;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					7E42B62A2ED3F68A00E409DB = {
+						CreatedOnToolsVersion = 26.1;
+					};
+					7E42B6372ED3F68B00E409DB = {
+						CreatedOnToolsVersion = 26.1;
+						TestTargetID = 7E42B62A2ED3F68A00E409DB;
+					};
+					7E42B6412ED3F68B00E409DB = {
+						CreatedOnToolsVersion = 26.1;
+						TestTargetID = 7E42B62A2ED3F68A00E409DB;
+					};
+				};
+			};
+			buildConfigurationList = 7E42B6262ED3F68A00E409DB /* Build configuration list for PBXProject "tempered-canvas" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E42B6222ED3F68A00E409DB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7E42B62C2ED3F68A00E409DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E42B62A2ED3F68A00E409DB /* tempered-canvas */,
+				7E42B6372ED3F68B00E409DB /* tempered-canvasTests */,
+				7E42B6412ED3F68B00E409DB /* tempered-canvasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E42B6292ED3F68A00E409DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E42B6362ED3F68B00E409DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E42B6402ED3F68B00E409DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E42B6272ED3F68A00E409DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E42B6342ED3F68B00E409DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E42B63E2ED3F68B00E409DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E42B63A2ED3F68B00E409DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E42B62A2ED3F68A00E409DB /* tempered-canvas */;
+			targetProxy = 7E42B6392ED3F68B00E409DB /* PBXContainerItemProxy */;
+		};
+		7E42B6442ED3F68B00E409DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E42B62A2ED3F68A00E409DB /* tempered-canvas */;
+			targetProxy = 7E42B6432ED3F68B00E409DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7E42B64A2ED3F68B00E409DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E42B64B2ED3F68B00E409DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		7E42B64D2ED3F68B00E409DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "play.tempered-canvas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7E42B64E2ED3F68B00E409DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "play.tempered-canvas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7E42B6502ED3F68B00E409DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "play.tempered-canvasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tempered-canvas.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tempered-canvas";
+			};
+			name = Debug;
+		};
+		7E42B6512ED3F68B00E409DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "play.tempered-canvasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tempered-canvas.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tempered-canvas";
+			};
+			name = Release;
+		};
+		7E42B6532ED3F68B00E409DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "play.tempered-canvasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "tempered-canvas";
+			};
+			name = Debug;
+		};
+		7E42B6542ED3F68B00E409DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "play.tempered-canvasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "tempered-canvas";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E42B6262ED3F68A00E409DB /* Build configuration list for PBXProject "tempered-canvas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E42B64A2ED3F68B00E409DB /* Debug */,
+				7E42B64B2ED3F68B00E409DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E42B64C2ED3F68B00E409DB /* Build configuration list for PBXNativeTarget "tempered-canvas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E42B64D2ED3F68B00E409DB /* Debug */,
+				7E42B64E2ED3F68B00E409DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E42B64F2ED3F68B00E409DB /* Build configuration list for PBXNativeTarget "tempered-canvasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E42B6502ED3F68B00E409DB /* Debug */,
+				7E42B6512ED3F68B00E409DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E42B6522ED3F68B00E409DB /* Build configuration list for PBXNativeTarget "tempered-canvasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E42B6532ED3F68B00E409DB /* Debug */,
+				7E42B6542ED3F68B00E409DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E42B6232ED3F68A00E409DB /* Project object */;
+}
